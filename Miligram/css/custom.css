@@ -1,0 +1,56 @@
+.button {
+    width: 100%;
+}
+
+.portrait {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.name-over-image {
+    width: 100%;
+    padding: 0 10%;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+}
+
+.description>div {
+    display: inline-block;
+    zoom: 1;
+    width: 33%;
+    text-align: center;
+}
+
+.gallery-row {
+    margin-top: 2rem;
+}
+
+.gallery {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform .25s ease;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+
+.gallery-nonHover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform .25s ease;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+
+.gallery:hover {
+    transform: scale(1.3);
+    border: none;
+    border-radius: 10px;
+}

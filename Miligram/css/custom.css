@@ -20,10 +20,17 @@
 
 .description>div {
     display: inline-block;
-    zoom: 1;
     width: 33%;
     text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+    .description>div {
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+} 
 
 .gallery-row {
     margin-top: 2rem;
